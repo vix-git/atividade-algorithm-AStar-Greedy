@@ -1,0 +1,264 @@
+.root {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #14181f,
+            #0f1318
+    );
+
+    -fx-font-family: "DejaVu Sans";
+}
+
+/* =========================================================
+   PAINEL PRINCIPAL
+   ========================================================= */
+
+.controls-panel {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #202731,
+            #171c23
+    );
+
+    -fx-border-color: #3e4855;
+
+    -fx-border-width: 0 0 0 2;
+
+    -fx-padding: 24;
+
+    -fx-pref-width: 330;
+}
+
+/* =========================================================
+   TÍTULO
+   ========================================================= */
+
+.app-title {
+    -fx-text-fill: #f1f4f7;
+
+    -fx-font-size: 24px;
+
+    -fx-font-weight: bold;
+}
+
+.app-subtitle {
+    -fx-text-fill: #9da8b5;
+
+    -fx-font-size: 12px;
+
+    -fx-padding: 0 0 12 0;
+}
+
+/* =========================================================
+   TÍTULOS DE SEÇÃO
+   ========================================================= */
+
+.section-title {
+    -fx-text-fill: #dfe6ee;
+
+    -fx-font-size: 13px;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 10 0 4 0;
+}
+
+/* =========================================================
+   RADIO BUTTON
+   ========================================================= */
+
+.radio-button {
+    -fx-text-fill: #cbd3dc;
+
+    -fx-font-size: 12px;
+
+    -fx-padding: 3 0 3 0;
+}
+
+.radio-button:hover {
+    -fx-text-fill: white;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #ffffff;
+
+    -fx-font-weight: bold;
+}
+
+.radio-button .radio {
+    -fx-border-color: #707b88;
+
+    -fx-border-width: 1.5;
+
+    -fx-background-color: #1b2129;
+
+    -fx-padding: 3;
+}
+
+.radio-button:selected .radio {
+    -fx-border-color: #5aa9e6;
+
+    -fx-background-color: #1f2934;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #5aa9e6;
+}
+
+/* =========================================================
+   BOTÕES
+   ========================================================= */
+
+.action-button {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #3b4857,
+            #2d3743
+    );
+
+    -fx-text-fill: white;
+
+    -fx-font-weight: bold;
+
+    -fx-font-size: 13px;
+
+    -fx-background-radius: 6;
+
+    -fx-border-radius: 6;
+
+    -fx-border-color: #596675;
+
+    -fx-border-width: 1;
+
+    -fx-padding: 10 12;
+}
+
+.action-button:hover {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #4a596b,
+            #364250
+    );
+
+    -fx-border-color: #7590aa;
+}
+
+.action-button:pressed {
+    -fx-background-color: #27313d;
+}
+
+.execute-button {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #4779a6,
+            #355d82
+    );
+
+    -fx-border-color: #6f9ec6;
+}
+
+.execute-button:hover {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #548bbd,
+            #3f6f99
+    );
+}
+
+/* =========================================================
+   MÉTRICAS
+   ========================================================= */
+
+.metric-label {
+    -fx-text-fill: #c6ced8;
+
+    -fx-font-size: 12px;
+
+    -fx-padding: 2 0 2 0;
+}
+
+.status-label {
+    -fx-text-fill: #83d98f;
+
+    -fx-font-size: 12px;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 0 0 5 0;
+}
+
+/* =========================================================
+   CAIXAS DAS SEÇÕES
+   ========================================================= */
+
+.section-box {
+    -fx-background-color: rgba(255, 255, 255, 0.025);
+
+    -fx-border-color: #37424f;
+
+    -fx-border-width: 1;
+
+    -fx-border-radius: 7;
+
+    -fx-background-radius: 7;
+
+    -fx-padding: 10;
+}
+
+/* =========================================================
+   LEGENDA
+   ========================================================= */
+
+.legend-label {
+    -fx-text-fill: #b9c2cc;
+
+    -fx-font-size: 11px;
+}
+
+.legend-color-blue {
+    -fx-background-color: rgba(80, 170, 230, 0.75);
+
+    -fx-background-radius: 3;
+
+    -fx-border-color: #6ea9ce;
+
+    -fx-border-radius: 3;
+}
+
+.legend-color-green {
+    -fx-background-color: rgba(80, 220, 100, 0.75);
+
+    -fx-background-radius: 3;
+
+    -fx-border-color: #72ce7c;
+
+    -fx-border-radius: 3;
+}
+
+.legend-color-gray {
+    -fx-background-color: #30363f;
+
+    -fx-background-radius: 3;
+
+    -fx-border-color: #59636f;
+
+    -fx-border-radius: 3;
+}
+
+/* =========================================================
+   SEPARADOR
+   ========================================================= */
+
+.separator .line {
+    -fx-border-color: #394450;
+
+    -fx-border-width: 1 0 0 0;
+}
+
+/* =========================================================
+   DESABILITADO
+   ========================================================= */
+
+.button:disabled,
+.radio-button:disabled {
+    -fx-opacity: 0.45;
+}
